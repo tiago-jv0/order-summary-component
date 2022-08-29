@@ -18,9 +18,8 @@ body {
     height: 100vh;
     background-image: url(../../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
 
-    background-color: rgba(224, 232, 255, 1);
+    background-color: var(--pale--blue);
 
     padding: 0;
     display: flex;
@@ -30,7 +29,6 @@ body {
     @media screen and (min-width: 768px) {
         padding-top: 10.2rem;
         background-image: url(../../images/pattern-background-desktop.svg);
-        background-position-y: -25%;
     }
 }
 

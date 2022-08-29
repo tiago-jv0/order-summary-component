@@ -27,8 +27,7 @@ body {
   height: 100vh;
   background-image: url(../../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-color: rgb(224, 232, 255);
+  background-color: var(--pale--blue);
   padding: 0;
   display: flex;
   justify-content: center;
@@ -38,7 +37,6 @@ body {
   body {
     padding-top: 10.2rem;
     background-image: url(../../images/pattern-background-desktop.svg);
-    background-position-y: -25%;
   }
 }
 
@@ -111,7 +109,7 @@ source {
   font-size: 2.2rem;
   line-height: 2.9rem;
   text-align: center;
-  color: var(--dark-blue);
+  color: #1F2E55;
 }
 @media screen and (min-width: 768px) {
   .card__title {
